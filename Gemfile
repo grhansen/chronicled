@@ -22,6 +22,8 @@ gem "propshaft", "~> 1.3"
 gem "puma", "~> 8.0"
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 8.1"
+# Slim templating language
+gem "slim-rails", "~> 4.0"
 # Use the database-backed adapters for Rails.cache, Active Job, and Action Cable
 gem "solid_cache", "~> 1.0"
 gem "solid_queue", "~> 1.4"

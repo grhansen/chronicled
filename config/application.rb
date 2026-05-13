@@ -23,5 +23,8 @@ module Chronicled
     #
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
+
+    # Force generated templates in Slim format
+    config.generators.template_engine = :slim
   end
 end
